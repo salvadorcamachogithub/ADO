@@ -11,7 +11,7 @@ steps:
     varPassWord: '$(LREPassword)'
     varDomain: Salvador
     varProject: AOS
-    varTestID: 207
+    varTestID: 208
     varTrending: AssociatedTrend
     varTimeslotDuration: 60
     varUseSLAInStatus: true
