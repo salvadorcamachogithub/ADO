@@ -1,5 +1,6 @@
 pool:
-  name: Azure Pipelines
+  #name: Azure Pipelines
+  vmImage: 'windows-latest'
 #Your build pipeline references a secret variable named ‘LREPassword’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
 
 steps:
