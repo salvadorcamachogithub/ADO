@@ -4,7 +4,7 @@ pool:
 #Your build pipeline references a secret variable named ‘LREPassword’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
 
 steps:
-- task: Micro-Focus.PCIntegration.build-task-pc-test-execution.PerformanceCenterTesting@1
+- task: PerformanceCenterTesting@1
   displayName: 'Execute LoadRunner Enterprise test'
   inputs:
     varPCServer: 'https://lreorgdemo.saas.microfocus.com/LRE/?tenant=63acd16e-6797-431a-b734-788ab1ef1db9'
