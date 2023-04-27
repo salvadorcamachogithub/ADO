@@ -12,9 +12,9 @@ steps:
     varPassWord: '$(LREPassword)'
     varDomain: Salvador
     varProject: AOS
-    varTestID: 208
+    varTestID: 177
     varTrending: AssociatedTrend
-    varTimeslotDuration: 60
+    varTimeslotDuration: 30
     varUseSLAInStatus: true
 
 - task: PublishPipelineArtifact@1
